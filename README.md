@@ -193,13 +193,15 @@ If you find SymRAG useful in your research, please consider citing:
 
 ```bibtex
 @article{hakim2025symrag,
-      title={Efficient Neuro-Symbolic Retrieval-Augmented Generation through Adaptive Query Routing},
-      author={Safayat Bin Hakim and Muhammad Adil and Alvaro Velasquez and Houbing Herbert Song},
-      year={2025},
-      eprint={2506.12981},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
+  title        = {SymRAG: Efficient Neuro-Symbolic Retrieval Through Adaptive Query Routing},
+  author       = {Safayat Bin Hakim and Muhammad Adil and Alvaro Velasquez and Houbing Herbert Song},
+  year         = {2025},
+  eprint       = {2506.12981},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI},
+  doi          = {10.48550/arXiv.2506.12981},
 }
+
 ```
 
 ---
