@@ -1,6 +1,7 @@
 # SymRAG: Efficient Neuro-Symbolic Reasoning via Adaptive Query Routing
-***Safayat Bin Hakim\***  
+
 📄 arXiv: [2506.12981](https://arxiv.org/abs/2506.12981)
+Accepted at the 19th International Conference on Neurosymbolic Learning and Reasoning. See the citation section below for the published PMLR entry.
 
 ---
 
@@ -202,14 +203,15 @@ pytest
 If you find SymRAG useful in your research, please consider citing:
 
 ```bibtex
-@article{hakim2025symrag,
-  title        = {SymRAG: Efficient Neuro-Symbolic Retrieval Through Adaptive Query Routing},
-  author       = {Safayat Bin Hakim and Muhammad Adil and Alvaro Velasquez and Houbing Herbert Song},
-  year         = {2025},
-  eprint       = {2506.12981},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.AI},
-  doi          = {10.48550/arXiv.2506.12981},
+@InProceedings{hakim2025symrag,
+  title     = {SymRAG: Efficient Neuro-Symbolic Retrieval Through Adaptive Query Routing},
+  author    = {Hakim, Safayat Bin and Adil, Muhammad and Velasquez, Alvaro and Song, Houbing Herbert},
+  booktitle = {Proceedings of The 19th International Conference on Neurosymbolic Learning and Reasoning},
+  pages     = {540--564},
+  year      = {2025},
+  volume    = {284},
+  series    = {Proceedings of Machine Learning Research},
+  publisher = {PMLR},
 }
 
 ```
@@ -219,13 +221,14 @@ If you find SymRAG useful in your research, please consider citing:
 ## 📬 Contact
 
 For questions or collaborations, feel free to reach out:  
-Safayat Bin Hakim — safayat.b.hakim@gmail.com
+
+safayat [dot] b [dot] hakim [at] gmail [dot] com
 
 ---
 
 ## ❤️ Acknowledgments
 
-This work leverages powerful open-source libraries including Hugging Face Transformers, Sentence-Transformers, spaCy, and NetworkX. We thank the creators of the HotpotQA and DROP datasets for providing challenging benchmarks for evaluating advanced reasoning systems.
+SymRAG builds on open-source tools that made this work possible, including Hugging Face Transformers, Sentence-Transformers, spaCy, and NetworkX. We also appreciate the teams behind HotpotQA and DROP for creating benchmarks that continue to push reasoning systems in useful directions.
 
 ---
 
