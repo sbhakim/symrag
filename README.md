@@ -27,7 +27,7 @@ symrag/
 │   ├── system/           # SystemControlManager, UnifiedResponseAggregator, system_logic_helpers.py  
 │   └── utils/            # DataLoaders, Evaluation, MetricsCollector, DeviceManager, etc.  
 ├── tests/                # Evaluation scripts (e.g., test_hotpotqa.py)  
-├── figs/                 # # Key figures from paper 
+├── figs/                 # Key figures from paper
 ├── requirements.txt      # Python dependencies  
 └── README.md             # You are here
 ```
@@ -41,7 +41,7 @@ symrag/
 git clone https://github.com/sbhakim/symrag.git
 cd symrag
 # It's recommended to use a virtual environment (e.g., conda or venv)
-# conda create --name symrag python=3.9 # Example for Python 3.9 [cite: 6010]
+# conda create --name symrag python=3.9
 # conda activate symrag
 pip install -r requirements.txt
 # Ensure spaCy models are downloaded
@@ -184,6 +184,16 @@ python main.py --run-ablation --dataset hotpotqa --samples 100 --ablation-name "
 ```
 
 Detailed ablation results, including statistical significance, will be saved.
+
+---
+
+## ✅ Tests
+
+Run the test suite with:
+
+```bash
+pytest
+```
 
 ---
 
